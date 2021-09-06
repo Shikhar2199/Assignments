@@ -1,0 +1,9 @@
+N = str(input())
+st=""
+
+for i in range(len(N)):
+	j=str(int(N)%10)
+	N=str(int(N)//10)
+	st+=j
+	
+print(st)
