@@ -11,3 +11,5 @@ else:
     print(type(sum),type(N))
     print("Not Armstrong")
 print(sum)
+
+	   
