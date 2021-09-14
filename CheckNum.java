@@ -2,6 +2,7 @@
  * 
  * 
  * 
+ STRINGTOKENIZER
 boolean hasMoreTokens()	          It checks if there is more tokens available.
 String nextToken()	              It returns the next token from the StringTokenizer object.
 String nextToken(String delim)	  It returns the next token based on the delimiter.
