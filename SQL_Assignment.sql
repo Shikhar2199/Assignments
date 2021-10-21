@@ -21,7 +21,8 @@ select * from employees where commission_pct = 0;
 /*7. Retrieve all non duplicate manager ids from employees table*/
 select distinct manager_id from employees;
 
-/*8. Sort the employees record in descending order based on salary. If two employees have same salary sorting should be done in ascending order based on last name.*/
+/*8. Sort the employees record in descending order based on salary.
+If two employees have same salary sorting should be done in ascending order based on last name.*/
 select * from employees order by salary desc , last_name asc;
 
 /*9. get all employees who belong  to department 50 and salary is greater than 5000/
